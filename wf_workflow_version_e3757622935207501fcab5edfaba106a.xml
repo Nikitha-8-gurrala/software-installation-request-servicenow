@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-07-28 17:12:38">
+<wf_workflow_version action="INSERT_OR_UPDATE">
+<active>true</active>
+<activity_stages>{"ends":["23757622935207501fcab5edfaba106f"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+<after_business_rules>false</after_business_rules>
+<checked_out>2026-07-28 17:11:20</checked_out>
+<checked_out_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+<column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+<condition table="sc_req_item"/>
+<condition_type/>
+<description>Handles software request approvals and fulfillment tasks.</description>
+<expected_sequences>6f757622935207501fcab5edfaba106c,23757622935207501fcab5edfaba106f</expected_sequences>
+<expected_time>1970-01-01 14:00:00</expected_time>
+<expected_time_type/>
+<full_sequences>6f757622935207501fcab5edfaba106c,23757622935207501fcab5edfaba106f</full_sequences>
+<journal/>
+<max_activity_count>100</max_activity_count>
+<name>Software Request Workflow</name>
+<not_cacheable>false</not_cacheable>
+<on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+<order>100</order>
+<pin_type>set_by_activity</pin_type>
+<published>false</published>
+<relative_duration display_value=""/>
+<requires_ert>true</requires_ert>
+<run_multiple>false</run_multiple>
+<schedule display_value=""/>
+<stage_field>stage</stage_field>
+<stage_order>computed</stage_order>
+<start display_value="Begin">6f757622935207501fcab5edfaba106c</start>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-28 17:11:20</sys_created_on>
+<sys_id>e3757622935207501fcab5edfaba106a</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-28 17:11:21</sys_updated_on>
+<table>sc_req_item</table>
+<timezone/>
+<validated>false</validated>
+<workflow display_value="Software Request Workflow">dd927e6a931207501fcab5edfaba10f8</workflow>
+</wf_workflow_version>
+</unload>
